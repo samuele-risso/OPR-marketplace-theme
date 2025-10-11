@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "european-union"
+  },
+  "sections": {
+    "collection_list_cbRagX": {
+      "settings": {
+        "image_ratio": "adapt",
+        "columns_mobile": "2"
+      },
+      "blocks": {}
+    },
+    "image_with_text_V6fBRY": {
+      "settings": {},
+      "blocks": {
+        "heading_YerC9m": {
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_cFTwGw": {
+          "settings": {
+            "text_style": "body"
+          }
+        }
+      }
+    },
+    "featured_collection_6Cx9i8": {
+      "settings": {
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "show_view_all": false
+      },
+      "blocks": {}
+    },
+    "featured_collection_fkt6dw": {
+      "settings": {
+        "description": "",
+        "columns_desktop": 4,
+        "show_view_all": false
+      },
+      "blocks": {}
+    },
+    "multicolumn_ikPaG": {
+      "type": "multicolumn",
+      "disabled": false,
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "header-25633b18db3791edce77223e197af8b4": null,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "header-46d3b3a0d4b715d8d65520dc05b5b0fa": null,
+        "button_label": "Button label",
+        "button_link": "",
+        "header-a828b8f971abfbfc8afe8e17ec1dd51d": null,
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "header-d2534fe1e13bf4d044c03e3545b6fe35": null,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "header-aaa4fc22756c623d9ddf1f7349ea8978": null,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "column_JMfmg": {
+          "type": "column",
+          "disabled": false,
+          "settings": {
+            "image": null,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jiL4K": {
+          "type": "column",
+          "disabled": false,
+          "settings": {
+            "image": null,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ikD9D": {
+          "type": "column",
+          "disabled": false,
+          "settings": {
+            "image": null,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_JMfmg",
+        "column_jiL4K",
+        "column_ikD9D"
+      ],
+      "name": "t:sections.multicolumn.presets.name"
+    }
+  },
+  "order": [
+    "slideshow",
+    "collection_list_cbRagX",
+    "image_with_text_V6fBRY",
+    "custom_liquid_qLwYcX",
+    "featured_collection_6Cx9i8",
+    "featured_collection_fkt6dw",
+    "custom_liquid_k8zFC3",
+    "multirow_zLxKjm",
+    "custom_liquid_NEY7QF",
+    "collection_list_wxkWF3",
+    "contact_form_JQgyEC",
+    "multicolumn_ikPaG"
+  ]
+}
