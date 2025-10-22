@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/image00001-removebg-preview.png",
+    "logo": "shopify://shop_images/little_logo.png",
     "logo_width": 70,
-    "favicon": "shopify://shop_images/image00001-removebg-preview.png",
+    "favicon": "shopify://shop_images/little_logo.png",
     "type_header_font": "proza_libre_n4",
     "heading_scale": 100,
     "type_body_font": "archivo_n4",
@@ -204,6 +204,17 @@
           "background": "#331c4e",
           "background_gradient": "",
           "text": "#e8d7ff",
+          "button": "#42007d",
+          "button_label": "#e8d7ff",
+          "secondary_button_label": "#42007d",
+          "shadow": "#42007d"
+        }
+      },
+      "scheme-47f99341-0005-44af-a06e-cdf410f917fe": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#42007d",
           "button": "#42007d",
           "button_label": "#e8d7ff",
           "secondary_button_label": "#42007d",

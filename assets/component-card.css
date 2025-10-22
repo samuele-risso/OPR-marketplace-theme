@@ -3,6 +3,7 @@
   height: 100%;
   position: relative;
   text-decoration: none;
+  width: 100%;
 }
 
 .card {
@@ -102,6 +103,7 @@
 
 .card .media {
   width: 100%;
+  background-color: white;
 }
 
 .card__media {
@@ -137,6 +139,7 @@
 .card__information {
   grid-row-start: 2;
   padding: 1.3rem 1rem;
+  text-align: center;
 }
 
 .card:not(.ratio) > .card__content {

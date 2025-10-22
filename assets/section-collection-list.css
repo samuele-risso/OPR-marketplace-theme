@@ -1,6 +1,7 @@
 .collection-list {
-  margin-top: 0;
+  margin-top: -130px;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .collection-list-title {
@@ -26,7 +27,7 @@
 
 .collection-list__item:only-child {
   max-width: 100%;
-  width: 100%;
+  width: 10px;
 }
 
 @media screen and (max-width: 749px) {
