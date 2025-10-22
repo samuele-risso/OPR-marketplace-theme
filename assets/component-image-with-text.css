@@ -2,6 +2,10 @@
   margin-bottom: 0;
 }
 
+.colore-sfondo{
+  background-color: #f3f3f3;
+}
+
 .image-with-text .grid__item {
   position: relative;
 }
