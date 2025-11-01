@@ -12,7 +12,7 @@
     "logo": "shopify://shop_images/little_logo.png",
     "logo_width": 70,
     "favicon": "shopify://shop_images/little_logo.png",
-    "type_header_font": "proza_libre_n4",
+    "type_header_font": "alegreya_n4",
     "heading_scale": 100,
     "type_body_font": "archivo_n4",
     "body_scale": 100,
@@ -21,7 +21,7 @@
     "spacing_grid_horizontal": 12,
     "spacing_grid_vertical": 12,
     "animations_reveal_on_scroll": true,
-    "animations_hover_elements": "none",
+    "animations_hover_elements": "default",
     "buttons_border_thickness": 2,
     "buttons_border_opacity": 100,
     "buttons_radius": 40,
@@ -143,6 +143,13 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "15351435345818755577": {
+        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -214,6 +221,17 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
+          "text": "#42007d",
+          "button": "#42007d",
+          "button_label": "#e8d7ff",
+          "secondary_button_label": "#42007d",
+          "shadow": "#42007d"
+        }
+      },
+      "scheme-f40b3190-b6bb-4913-a9d2-4ad68f351fc4": {
+        "settings": {
+          "background": "#e8d7ff",
+          "background_gradient": "linear-gradient(128deg, rgba(157, 78, 237, 1), rgba(232, 215, 255, 1) 84%)",
           "text": "#42007d",
           "button": "#42007d",
           "button_label": "#e8d7ff",
@@ -414,5 +432,8 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": []
   }
 }

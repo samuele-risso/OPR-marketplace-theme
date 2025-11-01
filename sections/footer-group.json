@@ -11,6 +11,31 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "navigation_1_hVX9Wh": {
+      "type": "navigation-1",
+      "blocks": {
+        "navigation_rKdLbt": {
+          "type": "navigation",
+          "settings": {
+            "link_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "navigation_rKdLbt"
+      ],
+      "name": "Navigation #1",
+      "settings": {
+        "navigation_title": "Menu",
+        "title-color": "#e8d7ff",
+        "list-title-color": "#e8d7ff",
+        "background-color": "#331c4e",
+        "list-title-font-size": 16,
+        "link-color": "#e8d7ff",
+        "link-font-size": 16,
+        "link-line-height": 1.6
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -30,6 +55,7 @@
     }
   },
   "order": [
+    "navigation_1_hVX9Wh",
     "footer"
   ]
 }
