@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 749px) {
+  .collection-list {
+    margin-top: -90px;
+  }
+}
+
 .collection-list-title {
   margin: 0;
 }
