@@ -5,6 +5,10 @@
   margin-bottom: 1.5rem;
 }
 
+.product .price__container {
+  justify-content: flex-start !important;
+}
+
 .price {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
@@ -12,7 +16,7 @@
   color: rgb(var(--color-foreground));
 }
 
-.price > * {
+.price>* {
   display: inline-block;
   vertical-align: top;
 }
@@ -26,7 +30,7 @@
 }
 
 .price .price-item {
-  display: inline-block;
+  display: flex;
   margin: 0 1rem 0 0;
 }
 

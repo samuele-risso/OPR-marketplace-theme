@@ -113,6 +113,33 @@
   margin-top: 0.5rem;
 }
 
+/* Make the product image container opaque (white background) instead of transparent */
+.cart-notification-product__image {
+  background-color: #ffffff !important;
+  padding: 0.4rem !important;
+  border-radius: 0.6rem !important;
+  border: 1px solid rgba(var(--color-foreground), 0.06) !important;
+  box-shadow: 0 6px 18px rgba(var(--color-shadow), 0.06) !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  transition: box-shadow 200ms ease, transform 200ms ease;
+}
+
+.cart-notification-product__image:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(var(--color-shadow), 0.08) !important;
+}
+
+.cart-notification-product__image img {
+  display: block;
+  max-width: 70px;
+  width: auto;
+  height: auto;
+  border-radius: 0.45rem;
+  object-fit: contain;
+}
+
 .cart-notification-product__image:after {
   content: none;
 }

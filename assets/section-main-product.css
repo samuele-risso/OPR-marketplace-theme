@@ -322,6 +322,25 @@ a.product__text {
   margin-top: -1.4rem;
 }
 
+/* Ensure product media containers have a white background instead of transparent
+   This fixes transparent PNGs or images with transparent areas showing through. */
+.product__media.media--transparent,
+.product-media-container .media--transparent,
+.product__media-item .media--transparent {
+  background-color: #ffffff !important;
+  border-radius: 0.6rem !important;
+  border: 1px solid rgba(var(--color-foreground), 0.04) !important;
+  box-shadow: 0 8px 20px rgba(var(--color-shadow), 0.04) !important;
+  /* .media has overflow:hidden; rounded corners will clip the image */
+}
+
+.product__media.media--transparent img,
+.product__media .image-magnify-lightbox {
+  border-radius: 0.5rem !important;
+  display: block;
+  object-fit: contain;
+}
+
 .product--no-media .share-button {
   max-width: 100%;
 }
@@ -1113,6 +1132,12 @@ a.product__text {
   width: 100%;
   height: 100%;
   pointer-events: none;
+}
+
+/* Thumbnails: only add a white background — preserve existing borders/rounding */
+.thumbnail.global-media-settings,
+.thumbnail.global-media-settings.global-media-settings--no-shadow {
+  background-color: #ffffff;
 }
 
 .thumbnail__badge .icon {

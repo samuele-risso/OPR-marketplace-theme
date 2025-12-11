@@ -32,6 +32,11 @@ cart-items .title-wrapper-with-link {
   align-items: flex-start;
 }
 
+/* Make cart item image containers with global media settings have a white background only */
+.cart-item__image-container.global-media-settings {
+  background-color: #ffffff;
+}
+
 .cart-item__nested-line .cart-item__image-container {
   min-width: calc(10rem / var(--font-body-scale));
   justify-content: right;
