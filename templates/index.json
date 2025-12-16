@@ -499,6 +499,35 @@
         "border_thickness": 0
       }
     },
+    "176590783449d2b5a3": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_carousel_dual_carousel_wyNaNW": {
+          "type": "shopify://apps/google-reviews/blocks/carousel-dual_carousel/8b378e9e-c56d-47ce-a754-feca5e0caf59",
+          "settings": {
+            "contentIndex": "1",
+            "customContentIndex": 31,
+            "font": "default",
+            "themeId": "light",
+            "cardColor": "#F3F6F9",
+            "starsColor": "#FBB000",
+            "textColor": "#404040",
+            "transparent": 1,
+            "reviewPhotosType": "small",
+            "fixedReviewsHeight": false,
+            "writeReview": true,
+            "hasShadow": true,
+            "speed": 5
+          }
+        }
+      },
+      "block_order": [
+        "google_reviews_carousel_dual_carousel_wyNaNW"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "ss_simple_faq_qU9jLk": {
       "type": "ss-simple-faq",
       "blocks": {
@@ -625,6 +654,7 @@
     "ss_counter_9nFhr6",
     "featured_collection_HPtrCF",
     "ss_wave_2_yUYeXy",
+    "176590783449d2b5a3",
     "ss_simple_faq_qU9jLk",
     "rich_text_CmCxDw",
     "newsletter_jKVzAx"
