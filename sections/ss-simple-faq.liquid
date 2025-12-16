@@ -195,4 +195,28 @@
     .tab-toggle{
           display:none;
     }
+    /* Make rich-text and newsletter sit side-by-side on wide screens */
+    @media (min-width: 992px) {
+      #shopify-section-template--26469664686406__rich_text_CmCxDw,
+      #shopify-section-template--26469664686406__newsletter_jKVzAx {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      /* rich text left, newsletter right */
+      #shopify-section-template--26469664686406__rich_text_CmCxDw { float: left; }
+      #shopify-section-template--26469664686406__newsletter_jKVzAx { float: right; }
+
+      /* ensure inner content fits and spacing is consistent */
+      #shopify-section-template--26469664686406__rich_text_CmCxDw .rich-text,
+      #shopify-section-template--26469664686406__newsletter_jKVzAx .newsletter {
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      /* if any section after these should start on a new row, it must clear the floats */
+      /* Example: add `clear: both` to the following section if needed in templates/index.json */
+    }
   {% endstyle %}

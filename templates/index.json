@@ -604,7 +604,9 @@
         "heading_fcqbyD",
         "button_jx9Niy"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "div {border: none; box-shadow: none; border-bottom: none;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -632,7 +634,7 @@
     "featured_collection_HPtrCF",
     "ss_wave_2_yUYeXy",
     "ss_simple_faq_qU9jLk",
-    "newsletter_jKVzAx",
-    "rich_text_CmCxDw"
+    "rich_text_CmCxDw",
+    "newsletter_jKVzAx"
   ]
 }
