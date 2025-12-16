@@ -534,7 +534,7 @@
       ],
       "name": "SS - FAQ #1",
       "settings": {
-        "heading": "Frequently Asked Questions",
+        "heading": "F.A.Q.",
         "icon_color": "#42007d",
         "hover_color": "#9d4eed",
         "question_color": "#e8d7ff",
@@ -550,7 +550,7 @@
         "heading_fcqbyD": {
           "type": "heading",
           "settings": {
-            "heading": "Do you need support?",
+            "heading": "Need support?",
             "heading_size": "h1"
           }
         },
@@ -587,14 +587,8 @@
         "heading_hLwCUk": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Subscribe!",
             "heading_size": "h1"
-          }
-        },
-        "paragraph_qRgQfV": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "email_form_BrdzGr": {
@@ -604,12 +598,9 @@
       },
       "block_order": [
         "heading_hLwCUk",
-        "paragraph_qRgQfV",
         "email_form_BrdzGr"
       ],
-      "custom_css": [
-        "section {}"
-      ],
+      "custom_css": [],
       "name": "t:sections.newsletter.presets.name",
       "settings": {
         "color_scheme": "",
