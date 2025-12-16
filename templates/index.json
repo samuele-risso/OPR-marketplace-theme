@@ -544,40 +544,6 @@
         "questions-font-size": 1.5
       }
     },
-    "newsletter_jKVzAx": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_hLwCUk": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_qRgQfV": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
-          }
-        },
-        "email_form_BrdzGr": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_hLwCUk",
-        "paragraph_qRgQfV",
-        "email_form_BrdzGr"
-      ],
-      "name": "t:sections.newsletter.presets.name",
-      "settings": {
-        "color_scheme": "",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "rich_text_CmCxDw": {
       "type": "rich-text",
       "blocks": {
@@ -604,9 +570,7 @@
         "heading_fcqbyD",
         "button_jx9Niy"
       ],
-      "custom_css": [
-        "div {border: none; box-shadow: none; border-bottom: none;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -615,6 +579,43 @@
         "full_width": false,
         "padding_top": 28,
         "padding_bottom": 60
+      }
+    },
+    "newsletter_jKVzAx": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_hLwCUk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_qRgQfV": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_BrdzGr": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_hLwCUk",
+        "paragraph_qRgQfV",
+        "email_form_BrdzGr"
+      ],
+      "custom_css": [
+        "section {}"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },

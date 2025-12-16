@@ -195,7 +195,6 @@
     .tab-toggle{
           display:none;
     }
-    /* Make rich-text and newsletter sit side-by-side on wide screens */
     @media (min-width: 992px) {
       #shopify-section-template--26469664686406__rich_text_CmCxDw,
       #shopify-section-template--26469664686406__newsletter_jKVzAx {
@@ -204,19 +203,46 @@
         vertical-align: top;
       }
 
-      /* rich text left, newsletter right */
       #shopify-section-template--26469664686406__rich_text_CmCxDw { float: left; }
       #shopify-section-template--26469664686406__newsletter_jKVzAx { float: right; }
 
-      /* ensure inner content fits and spacing is consistent */
       #shopify-section-template--26469664686406__rich_text_CmCxDw .rich-text,
       #shopify-section-template--26469664686406__newsletter_jKVzAx .newsletter {
         box-sizing: border-box;
         padding-left: 20px;
         padding-right: 20px;
       }
+    }
 
-      /* if any section after these should start on a new row, it must clear the floats */
-      /* Example: add `clear: both` to the following section if needed in templates/index.json */
+    #shopify-section-template--26469664686406__newsletter_jKVzAx {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+
+    #shopify-section-template--26469664686406__rich_text_CmCxDw .rich-text__heading,
+    #shopify-section-template--26469664686406__newsletter_jKVzAx h2.inline-richtext {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #shopify-section-template--26469664686406__rich_text_CmCxDw,
+    #shopify-section-template--26469664686406__rich_text_CmCxDw .rich-text,
+    #shopify-section-template--26469664686406__rich_text_CmCxDw .rich-text__wrapper,
+    #shopify-section-template--26469664686406__rich_text_CmCxDw .rich-text__blocks,
+    #shopify-section-template--26469664686406__newsletter_jKVzAx,
+    #shopify-section-template--26469664686406__newsletter_jKVzAx .newsletter,
+    #shopify-section-template--26469664686406__newsletter_jKVzAx .newsletter__wrapper,
+    #shopify-section-template--26469664686406__newsletter_jKVzAx .newsletter__subheading,
+    #shopify-section-template--26469664686406__newsletter_jKVzAx .newsletter__wrapper > * {
+      border: none !important;
+      border-top: none !important;
+      border-bottom: none !important;
+      box-shadow: none !important;
+      outline: none !important;
+      background-clip: padding-box !important;
     }
   {% endstyle %}
