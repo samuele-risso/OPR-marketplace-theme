@@ -547,5 +547,15 @@
       "expanded": "Formulaire de destinataire de carte-cadeau agrandi",
       "collapsed": "Formulaire de destinataire de carte-cadeau réduit"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "shipping": {
+        "third_party_address_timeout": "Impossible de charger les adresses. Veuillez réessayer ou utiliser une autre adresse.",
+        "third_party_address_error": "Une erreur s'est produite lors du chargement de la sélection de l'adresse. Veuillez saisir votre adresse manuellement ci-dessous.",
+        "third_party_payment_timeout": "Impossible de charger les moyens de paiement. Veuillez réessayer ou utiliser un autre moyen de paiement.",
+        "third_party_payment_error": "Une erreur s'est produite lors du chargement de la sélection du paiement. Veuillez utiliser un autre mode de paiement."
+      }
+    }
   }
 }

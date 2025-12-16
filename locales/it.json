@@ -547,5 +547,15 @@
       "expanded": "Modulo destinatario del buono regalo espanso",
       "collapsed": "Modulo destinatario del buono regalo compresso"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "shipping": {
+        "third_party_address_timeout": "Impossibile caricare gli indirizzi. Riprova o usa un indirizzo diverso.",
+        "third_party_address_error": "Si è verificato un errore durante il caricamento della selezione dell'indirizzo. Inserisci manualmente il tuo indirizzo qui sotto.",
+        "third_party_payment_timeout": "Impossibile caricare i metodi di pagamento. Riprova o utilizza un metodo di pagamento diverso.",
+        "third_party_payment_error": "Si è verificato un errore durante il caricamento della selezione del metodo di pagamento. Si prega di utilizzare un metodo di pagamento diverso."
+      }
+    }
   }
 }

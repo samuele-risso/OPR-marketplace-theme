@@ -17,8 +17,8 @@
           "settings": {
             "image": "shopify://shop_images/cta_image.jpg",
             "image_overlay_opacity": 0,
-            "heading": "Don't let them free!",
-            "heading_size": "h2",
+            "heading": "Join Our Collection!",
+            "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "",
@@ -128,7 +128,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "",
+        "collection": "new-arrivals",
         "products_to_show": 20,
         "title": "New Arrivals 🌠",
         "heading_size": "hxl",
@@ -160,7 +160,7 @@
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "",
+        "collection": "onsale",
         "products_to_show": 20,
         "title": "OnSale 🔥",
         "heading_size": "hxl",
@@ -211,17 +211,6 @@
     "multirow_zLxKjm": {
       "type": "multirow",
       "blocks": {
-        "row_HXXkDG": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/sealed_a68dda96-f47d-46ca-b072-59d3ee14d626.png",
-            "caption": "our best",
-            "heading": "Sealed Products",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Look More",
-            "button_link": "shopify://collections/sealed-products"
-          }
-        },
         "row_CQmKTK": {
           "type": "row",
           "settings": {
@@ -245,7 +234,6 @@
         }
       },
       "block_order": [
-        "row_HXXkDG",
         "row_CQmKTK",
         "row_PdHPXq"
       ],
@@ -289,16 +277,16 @@
         "border_thickness": 0
       }
     },
-    "featured_collection_YW3TcB": {
+    "featured_collection_MGM9rG": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {display: flex; flex-direction: row; justify-content: center;}"
+        "h2 {display: flex; flex-direction: row; justify-content: start;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "top-deal",
         "products_to_show": 20,
-        "title": "Top Deal",
+        "title": "Our Merch",
         "heading_size": "hxl",
         "description": "",
         "show_description": false,
@@ -317,17 +305,20 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 32,
+        "padding_top": 36,
         "padding_bottom": 0
       }
     },
-    "featured_collection_TqHz4B": {
+    "featured_collection_KDNp6G": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {display: flex; flex-direction: row; justify-content: start;}"
+      ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "top-deal",
         "products_to_show": 20,
-        "title": "Top Deal",
+        "title": "Gadgets & More",
         "heading_size": "hxl",
         "description": "",
         "show_description": false,
@@ -346,7 +337,7 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 0
       }
     },
@@ -508,93 +499,6 @@
         "border_thickness": 0
       }
     },
-    "featured_collection_MGM9rG": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h2 {display: flex; flex-direction: row; justify-content: start;}"
-      ],
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "top-deal",
-        "products_to_show": 20,
-        "title": "Our Merch",
-        "heading_size": "hxl",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": true,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection_KDNp6G": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h2 {display: flex; flex-direction: row; justify-content: start;}"
-      ],
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "top-deal",
-        "products_to_show": 20,
-        "title": "Gadgets & More",
-        "heading_size": "hxl",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": true,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "ss_wave_2_hQ6qPq": {
-      "type": "ss-wave-2",
-      "name": "SS - Wave #2",
-      "settings": {
-        "wave_height": 120,
-        "wave_height_mobile": 80,
-        "wave_animation": true,
-        "wave_rotate": false,
-        "wave_color": "#e8d7ff",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 0,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0
-      }
-    },
     "ss_simple_faq_qU9jLk": {
       "type": "ss-simple-faq",
       "blocks": {
@@ -640,6 +544,40 @@
         "questions-font-size": 1.5
       }
     },
+    "newsletter_jKVzAx": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_hLwCUk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_qRgQfV": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_BrdzGr": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_hLwCUk",
+        "paragraph_qRgQfV",
+        "email_form_BrdzGr"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_CmCxDw": {
       "type": "rich-text",
       "blocks": {
@@ -654,7 +592,7 @@
           "type": "button",
           "settings": {
             "button_label": "Contact Us",
-            "button_link": "",
+            "button_link": "shopify://pages/contact",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -672,15 +610,9 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "176202671943c03a27": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
+        "full_width": false,
+        "padding_top": 28,
+        "padding_bottom": 60
       }
     }
   },
@@ -693,17 +625,14 @@
     "ss_wave_2_X4nQtA",
     "multirow_zLxKjm",
     "ss_wave_2_UMdQVc",
-    "featured_collection_YW3TcB",
-    "featured_collection_TqHz4B",
+    "featured_collection_MGM9rG",
+    "featured_collection_KDNp6G",
     "ss_wave_2_Tttb6J",
     "ss_counter_9nFhr6",
     "featured_collection_HPtrCF",
     "ss_wave_2_yUYeXy",
-    "featured_collection_MGM9rG",
-    "featured_collection_KDNp6G",
-    "ss_wave_2_hQ6qPq",
     "ss_simple_faq_qU9jLk",
-    "rich_text_CmCxDw",
-    "176202671943c03a27"
+    "newsletter_jKVzAx",
+    "rich_text_CmCxDw"
   ]
 }

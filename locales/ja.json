@@ -535,5 +535,15 @@
       "expanded": "ギフトカードカードの受取人フォームを展開しました",
       "collapsed": "ギフトカードカードの受取人フォームを折りたたみました"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "shipping": {
+        "third_party_address_timeout": "アドレスを読み込めません。再試行するか、別のアドレスを使用してください。",
+        "third_party_address_error": "住所選択の読み込み中にエラーが発生しました。下記に住所を手動で入力してください。",
+        "third_party_payment_timeout": "お支払い方法を読み込めません。もう一度お試しいただくか、別のお支払い方法をご利用ください。",
+        "third_party_payment_error": "支払い方法の選択読み込み中にエラーが発生しました。別の支払い方法をご利用ください。"
+      }
+    }
   }
 }

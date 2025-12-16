@@ -13,18 +13,55 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "image_8YWmhw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_pulito_6dd8f419-36da-4733-b724-6d0defb801e3.png",
+            "image_width": 150,
+            "alignment": ""
+          }
+        },
+        "link_list_yjGdHP": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "quick-links"
+          }
+        },
+        "link_list_CFEKwA": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About You",
+            "menu": "about-you"
+          }
+        },
+        "link_list_AFxbki": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Policies",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "image_8YWmhw",
+        "link_list_yjGdHP",
+        "link_list_CFEKwA",
+        "link_list_AFxbki"
+      ],
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-b05ac8d9-b646-47c1-bb3d-5ade759d47e6",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Subscribe for news, deals and more!",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
-        "enable_language_selector": false,
+        "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": true,
-        "margin_top": 0,
+        "margin_top": 52,
         "padding_top": 36,
         "padding_bottom": 36
       }
