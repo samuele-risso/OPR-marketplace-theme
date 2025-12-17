@@ -15,7 +15,7 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/cta_image.jpg",
+            "image": "shopify://shop_images/2112x560.png",
             "image_overlay_opacity": 0,
             "heading": "Join Our Collection!",
             "heading_size": "h1",
@@ -509,8 +509,8 @@
             "customContentIndex": 31,
             "font": "default",
             "themeId": "light",
-            "cardColor": "#F3F6F9",
-            "starsColor": "#FBB000",
+            "cardColor": "#f3f6f9",
+            "starsColor": "#fbb000",
             "textColor": "#404040",
             "transparent": 1,
             "reviewPhotosType": "small",
