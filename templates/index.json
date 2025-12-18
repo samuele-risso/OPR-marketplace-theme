@@ -15,7 +15,7 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/2112x560.png",
+            "image": "shopify://shop_images/2816x560.png",
             "image_overlay_opacity": 0,
             "heading": "Join Our Collection!",
             "heading_size": "h1",
@@ -131,7 +131,7 @@
         "collection": "new-arrivals",
         "products_to_show": 20,
         "title": "New Arrivals 🌠",
-        "heading_size": "hxl",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -163,7 +163,7 @@
         "collection": "onsale",
         "products_to_show": 20,
         "title": "OnSale 🔥",
-        "heading_size": "hxl",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -287,7 +287,7 @@
         "collection": "top-deal",
         "products_to_show": 20,
         "title": "Our Merch",
-        "heading_size": "hxl",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -319,7 +319,7 @@
         "collection": "top-deal",
         "products_to_show": 20,
         "title": "Gadgets & More",
-        "heading_size": "hxl",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -392,7 +392,7 @@
         "heading": "Coming Soon",
         "heading_custom": true,
         "heading_font": "josefin_sans_n4",
-        "heading_size": 48,
+        "heading_size": 60,
         "heading_size_mobile": 32,
         "heading_height": 130,
         "heading_align": "center",
@@ -499,43 +499,14 @@
         "border_thickness": 0
       }
     },
-    "176590783449d2b5a3": {
-      "type": "apps",
-      "blocks": {
-        "google_reviews_carousel_dual_carousel_wyNaNW": {
-          "type": "shopify://apps/google-reviews/blocks/carousel-dual_carousel/8b378e9e-c56d-47ce-a754-feca5e0caf59",
-          "settings": {
-            "contentIndex": "1",
-            "customContentIndex": 31,
-            "font": "default",
-            "themeId": "light",
-            "cardColor": "#f3f6f9",
-            "starsColor": "#fbb000",
-            "textColor": "#404040",
-            "transparent": 1,
-            "reviewPhotosType": "small",
-            "fixedReviewsHeight": false,
-            "writeReview": true,
-            "hasShadow": true,
-            "speed": 5
-          }
-        }
-      },
-      "block_order": [
-        "google_reviews_carousel_dual_carousel_wyNaNW"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "ss_simple_faq_qU9jLk": {
       "type": "ss-simple-faq",
       "blocks": {
         "text_76Yj3K": {
           "type": "text",
           "settings": {
-            "question": "Do you offer free shipping?",
-            "answer": "<p>Yes, we provide free standard shipping on all orders over $100. For orders under $100, a small shipping fee applies, which will be shown at checkout.</p>"
+            "question": "Can I sell you my products?",
+            "answer": "<p>You can sell both your complete collection and a targeted selection of cards as needed, as we are structured to handle every type of purchase volume. To proceed or receive other information, contact us using the \"Contact Us\" form.</p>"
           }
         },
         "text_tRCH4G": {
@@ -616,7 +587,7 @@
         "heading_hLwCUk": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe!",
+            "heading": "Subscribe! 💌",
             "heading_size": "h1"
           }
         },
@@ -654,7 +625,6 @@
     "ss_counter_9nFhr6",
     "featured_collection_HPtrCF",
     "ss_wave_2_yUYeXy",
-    "176590783449d2b5a3",
     "ss_simple_faq_qU9jLk",
     "rich_text_CmCxDw",
     "newsletter_jKVzAx"
