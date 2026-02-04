@@ -64,6 +64,8 @@
   endif
 -%}
 
+{% if section.settings.collection.all_products_count > 0 %}
+
 <div
   class="color-{{ section.settings.color_scheme }} isolate gradient"
 >
@@ -213,6 +215,8 @@
     {%- endif -%}
   </div>
 </div>
+
+{% endif %}
 
 {% schema %}
 {
