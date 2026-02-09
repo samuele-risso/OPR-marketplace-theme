@@ -374,7 +374,7 @@
         "row_CQmKTK": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/slabs_f91ebdf6-91b3-4e24-aa61-8c8fc5149142.png",
+            "image": "shopify://shop_images/image00002_caf2d224-fefc-47bd-9466-dc522839fd45.jpg",
             "caption": "our most rare",
             "heading": "Slabs",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -385,6 +385,7 @@
         "row_PdHPXq": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/image00001_b367e1d0-aa86-45bb-a52e-ac265c7b09df.jpg",
             "caption": "?????",
             "heading": "Mistery Boxes",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
