@@ -215,21 +215,21 @@
           "type": "word",
           "settings": {
             "text": "Incoming",
-            "duration": 5
+            "duration": 10
           }
         },
         "word_XKLtmg": {
           "type": "word",
           "settings": {
-            "text": "07/10/25",
-            "duration": 5
+            "text": "07/03/26",
+            "duration": 10
           }
         },
         "word_08MAr3": {
           "type": "word",
           "settings": {
             "text": "08/03/26",
-            "duration": 5
+            "duration": 10
           }
         }
       },
