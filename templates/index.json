@@ -211,30 +211,22 @@
     "ss_counter_9nFhr6": {
       "type": "ss-counter",
       "blocks": {
-        "word_9i6VLY": {
-          "type": "word",
-          "settings": {
-            "text": "Incoming",
-            "duration": 10
-          }
-        },
         "word_XKLtmg": {
           "type": "word",
           "settings": {
             "text": "07/03/26",
-            "duration": 10
+            "duration": 5
           }
         },
         "word_08MAr3": {
           "type": "word",
           "settings": {
             "text": "08/03/26",
-            "duration": 10
+            "duration": 5
           }
         }
       },
       "block_order": [
-        "word_9i6VLY",
         "word_XKLtmg",
         "word_08MAr3"
       ],
