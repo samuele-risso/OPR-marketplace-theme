@@ -214,19 +214,29 @@
         "word_9i6VLY": {
           "type": "word",
           "settings": {
-            "text": "Incoming"
+            "text": "Incoming",
+            "duration": 5
           }
         },
         "word_XKLtmg": {
           "type": "word",
           "settings": {
-            "text": "19/10/25"
+            "text": "07/10/25",
+            "duration": 5
+          }
+        },
+        "word_08MAr3": {
+          "type": "word",
+          "settings": {
+            "text": "08/03/26",
+            "duration": 5
           }
         }
       },
       "block_order": [
         "word_9i6VLY",
-        "word_XKLtmg"
+        "word_XKLtmg",
+        "word_08MAr3"
       ],
       "custom_css": [
         "a {background-color: #e8d7ff; border-style: solid; border-color: #42007d; border-top-width: 3px; border-right-width: 3px; border-left-width: 3px; border-bottom-width: 4px; color: #6b21a8;}"
