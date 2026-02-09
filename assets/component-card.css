@@ -596,3 +596,49 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+/* Ensure cards inside sliders have equal heights */
+/* Targets standard product card sliders and forces a consistent ratio and stretching */
+.slider.contains-card--standard .slider__slide {
+  display: flex;
+  align-items: stretch;
+}
+.slider.contains-card--standard .slider__slide .card-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.slider.contains-card--standard .slider__slide .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+/* Override per-card inline ratio by setting a consistent padding-bottom for the ratio pseudo-element.
+   Adjust the default value below if you want a different card aspect ratio. */
+.slider.contains-card--standard .card__inner.ratio::before {
+  padding-bottom: var(--slider-card-ratio, 133.25635103926098%);
+}
+
+/* Also apply equal-height rules to product grids that are NOT using the slider class
+   (covers sections like merch, gadget, on-sale lists rendered as grids). */
+.contains-card--product.contains-card--standard .grid__item,
+.contains-card.contains-card--product.contains-card--standard .grid__item {
+  display: flex;
+  align-items: stretch;
+}
+.contains-card--product.contains-card--standard .grid__item .card-wrapper,
+.contains-card.contains-card--product.contains-card--standard .grid__item .card-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.contains-card--product.contains-card--standard .grid__item .card,
+.contains-card.contains-card--product.contains-card--standard .grid__item .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.contains-card--product.contains-card--standard .card__inner.ratio::before,
+.contains-card.contains-card--product.contains-card--standard .card__inner.ratio::before {
+  padding-bottom: var(--slider-card-ratio, 133.25635103926098%);
+}
