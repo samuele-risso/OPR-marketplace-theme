@@ -129,7 +129,7 @@
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "new-arrivals",
-        "products_to_show": 20,
+        "products_to_show": 25,
         "title": "New Arrivals 🌠",
         "heading_size": "h0",
         "description": "",
@@ -139,16 +139,16 @@
         "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 32,
         "padding_bottom": 0
       }
@@ -214,15 +214,13 @@
         "word_XKLtmg": {
           "type": "word",
           "settings": {
-            "text": "07/03/26",
-            "duration": 5
+            "text": "07/03/26"
           }
         },
         "word_08MAr3": {
           "type": "word",
           "settings": {
-            "text": "08/03/26",
-            "duration": 5
+            "text": "08/03/26"
           }
         }
       },
@@ -293,58 +291,24 @@
         "border_thickness": 0
       }
     },
-    "slideshow_wd4kT6": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_Vp66Hn": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        },
-        "slide_j6MTdc": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_Vp66Hn",
-        "slide_j6MTdc"
+    "image_banner_jNJnki": {
+      "type": "image-banner",
+      "custom_css": [
+        "img{object-fit: contain;}"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "layout": "grid",
-        "slide_height": "small",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "image_behavior": "ambient",
-        "show_text_below": false,
-        "accessibility_info": ""
+        "image": "shopify://shop_images/726d0564-9389-472a-8aba-330846c86cab_94226379-3fb1-4330-9e49-699b99a57235.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "ss_wave_2_X4nQtA": {
@@ -379,7 +343,7 @@
             "image": "shopify://shop_images/image00002_caf2d224-fefc-47bd-9466-dc522839fd45.jpg",
             "caption": "our most rare",
             "heading": "Slabs",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Elevate your collection to the next level. In this section, you'll find only the best of the Pokémon world: cards authenticated and sealed by world certification leaders like PSA, BGS, and CGC.</p>",
             "button_label": "Look More",
             "button_link": "shopify://collections/slabs"
           }
@@ -390,7 +354,7 @@
             "image": "shopify://shop_images/image00001_b367e1d0-aa86-45bb-a52e-ac265c7b09df.jpg",
             "caption": "?????",
             "heading": "Mistery Boxes",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Do you dare to tempt fate? Our Mystery Boxes aren't just boxes, they're portals to legendary rifts. We've hidden Packs, Singles and Discounts within select lots to ensure you have a breathtaking experience.</p>",
             "button_label": "Look More",
             "button_link": "shopify://collections/mistery-boxes"
           }
@@ -400,6 +364,7 @@
         "row_CQmKTK",
         "row_PdHPXq"
       ],
+      "custom_css": [],
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "small",
@@ -462,12 +427,12 @@
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 0
       }
@@ -494,12 +459,12 @@
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 0
       }
@@ -541,14 +506,14 @@
           "type": "text",
           "settings": {
             "question": "What is your refund policy?",
-            "answer": "<p>If you're not completely satisfied with your purchase, you can return it within 14 for a full refund. Please ensure the item is unused and in its original packaging.</p>"
+            "answer": "<p>If you are not completely satisfied with your purchase, you can return it within 5 days to get a full refund upon careful inspection by us.</p>"
           }
         },
         "text_kekqgg": {
           "type": "text",
           "settings": {
-            "question": "How can I create headshots with AI?",
-            "answer": "<p>Need professional headshots quickly? <a href=\"https://headshots.so\">headshots.so</a>, <a href=\"https://headshots.dk\">headshots.dk</a>, <a href=\"https://headshots.se\">headshots.se</a>, and <a href=\"https://headshots.no\">headshots.no</a> make it easy to produce high-quality images in just a few minutes. Whether you’re updating your LinkedIn profile or website, these platforms help you get a polished look without any hassle.</p>"
+            "question": "Do you offer a restoration service?",
+            "answer": "<p>yes, we offer a very efficient restoration service! <br/>Write to us through the form \"Contact us\", we will be ferns to put your hand on your card to restore it as best as possible.</p>"
           }
         }
       },
@@ -646,7 +611,7 @@
     "featured_collection_fkt6dw",
     "ss_wave_2_Tttb6J",
     "ss_counter_9nFhr6",
-    "slideshow_wd4kT6",
+    "image_banner_jNJnki",
     "ss_wave_2_X4nQtA",
     "multirow_zLxKjm",
     "ss_wave_2_UMdQVc",

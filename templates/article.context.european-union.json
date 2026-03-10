@@ -8,24 +8,16 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "footer-group.json",
+  "parent": "article.json",
   "context": {
     "market": "european-union"
   },
   "sections": {
-    "footer": {
-      "settings": {
-        "newsletter_heading": "Iscriviti per le novità e altro! "
-      },
+    "main": {
       "blocks": {
-        "link_list_yjGdHP": {
+        "share": {
           "settings": {
-            "heading": "Link veloci"
-          }
-        },
-        "link_list_CFEKwA": {
-          "settings": {
-            "heading": "Il tuo profilo"
+            "share_label": "Condividi"
           }
         }
       }
