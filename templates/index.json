@@ -214,26 +214,19 @@
         "word_XKLtmg": {
           "type": "word",
           "settings": {
-            "text": "07/03/26"
-          }
-        },
-        "word_08MAr3": {
-          "type": "word",
-          "settings": {
-            "text": "08/03/26"
+            "text": "12/04/26"
           }
         }
       },
       "block_order": [
-        "word_XKLtmg",
-        "word_08MAr3"
+        "word_XKLtmg"
       ],
       "custom_css": [
         "a {background-color: #e8d7ff; border-style: solid; border-color: #42007d; border-top-width: 3px; border-right-width: 3px; border-left-width: 3px; border-bottom-width: 4px; color: #6b21a8;}"
       ],
       "name": "SS - Counter",
       "settings": {
-        "heading": "Ferrara Nerd",
+        "heading": "Fiera Forli",
         "heading_custom": true,
         "heading_font": "josefin_sans_n4",
         "heading_size": 60,
@@ -246,7 +239,7 @@
         "counter_card_radius_mobile": 10,
         "counter_custom": true,
         "counter_font": "montserrat_n8",
-        "text": "Want to level up your collection? We buy and sell Pokémon products from every generation at Ferrara Nerd. Visit our booth for professional appraisals, trades, and legendary new finds!",
+        "text": "Via Punta di Ferro/2,  47122 Forli (FC)",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 22,
@@ -294,7 +287,7 @@
     "image_banner_jNJnki": {
       "type": "image-banner",
       "custom_css": [
-        "img{object-fit: contain;}"
+        "img {object-fit: contain;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -356,7 +349,7 @@
             "heading": "Mistery Boxes",
             "text": "<p>Do you dare to tempt fate? Our Mystery Boxes aren't just boxes, they're portals to legendary rifts. We've hidden Packs, Singles and Discounts within select lots to ensure you have a breathtaking experience.</p>",
             "button_label": "Look More",
-            "button_link": "shopify://collections/mistery-boxes"
+            "button_link": "shopify://collections/mystery-all"
           }
         }
       },
